@@ -4,6 +4,7 @@ import addComment from './addComment.js';
 const addEventToCommentBtn = () => {
   const getAllBtn = document.querySelectorAll('.commentBtn');
   getAllBtn.forEach((item) => {
+    // eslint-disable-next-line func-names
     item.addEventListener('click', function () {
       document.querySelector('.comments .qty').innerHTML = 0;
       document.querySelector('.popup ul').innerHTML = '';
