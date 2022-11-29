@@ -1,4 +1,4 @@
-import srcimport from '../assets/log.png';
+import srcimport from './assets/log.png';
 
 const mainScript = () => {
   const gethumburger = document.querySelector('.humburger-wrapper');
