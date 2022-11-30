@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import srcimport from '../assets/log.png';
 
 const mainScript = () => {

@@ -1,6 +1,8 @@
+import API_KEY from './api-key.js';
+
 const displayComments = async (id) => {
   const itemId = id;
-  const getApiComment = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/eHLzmWWPvFRWRTA0brmG/comments?item_id=${itemId}`;
+  const getApiComment = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${API_KEY}/comments?item_id=${itemId}`;
   const response = await fetch(getApiComment);
   if (response.ok) {
     const allComments = await response.json();

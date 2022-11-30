@@ -1,7 +1,8 @@
 import displayComments from './displayComments.js';
+import API_KEY from './api-key.js';
 
 const addComment1 = async (comObj, newid) => {
-  const getApiComment = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/eHLzmWWPvFRWRTA0brmG/comments';
+  const getApiComment = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${API_KEY}/comments`;
   await fetch(getApiComment, {
     method: 'POST',
     headers: {

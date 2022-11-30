@@ -1,8 +1,10 @@
+import API_KEY from './api-key.js';
+
 const postLike = async (itemId) => {
   const likeObj = {
     item_id: itemId,
   };
-  const getApiLikes = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/eHLzmWWPvFRWRTA0brmG/likes';
+  const getApiLikes = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${API_KEY}/likes`;
   await fetch(getApiLikes, {
     method: 'POST',
     headers: {
