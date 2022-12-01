@@ -1,10 +1,13 @@
 # Movies shows
 
-> This platform display movies shows fetched from an api
+> A capstone JavaScript application that utilises 2 APIs to display movies and enables users to like and comment on their favourate movies. The application consists of the Homepage that contains the list of movies and a popup window that displays details of a specific movie, it's likes and comments.
+- The movies are fetched from a [TV Maze API](https://www.tvmaze.com/api).
+- App users are able to like and comment on their favourate movies through the [Involvement API](https://www.notion.so/Involvement-API-869e60b5ad104603aa6db59e08150270)
+
 
 ## Built With
 
-- Javascript
+- HTML, CSS, Javascript
 - APIs
 - Webpack
 - Jest
