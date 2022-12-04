@@ -30,5 +30,4 @@ const addComment = () => {
     e.stopImmediatePropagation();
   });
 };
-
 export default addComment;
